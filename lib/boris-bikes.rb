@@ -4,3 +4,8 @@ class DockingStation
 end
 
 docking_station = DockingStation
+
+class Bike
+  def working?
+  end
+end
