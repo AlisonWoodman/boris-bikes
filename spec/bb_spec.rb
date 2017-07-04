@@ -1,7 +1,5 @@
 require 'boris-bikes.rb'
 
-describe 'Docking Station Class' do
-#  it 'passes initial test' do
-#    expect(docking_station). to eq DockingStation
-#  end
+describe DockingStation do
+  it {is_expected.to respond_to :release_bike}
 end
